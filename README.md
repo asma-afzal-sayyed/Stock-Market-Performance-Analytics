@@ -1,11 +1,19 @@
-# Stock Market Performance Analytics 📈
+# 📈 Stock Market Performance Analytics
 
-## Project Overview
-This project analyzes historical stock market data of 10 major Indian companies to understand stock price movements, daily returns, volatility, and trading volume.
+## 📌 Project Overview
+This project performs Exploratory Data Analysis (EDA) on historical stock market data of 10 major Indian companies using Python. It analyzes stock price movements, daily returns, trading volume, moving averages, and volatility to understand historical market performance and trends.
 
-Using Python and data visualization libraries, the project compares company performance and identifies historical market trends.
+## 🎯 Project Objectives
+- Analyze historical stock price trends.
+- Calculate daily returns and stock volatility.
+- Compare the performance of 10 major Indian companies.
+- Analyze trading volume and moving averages.
+- Visualize market trends using Python charts.
 
-## Technologies Used
+## 🏢 Companies Analyzed
+RELIANCE, TCS, INFY, HDFCBANK, ICICIBANK, AXISBANK, SBIN, BAJFINANCE, ITC, BHARTIARTL.
+
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -13,60 +21,59 @@ Using Python and data visualization libraries, the project compares company perf
 - Seaborn
 - Jupyter Notebook
 
-## Companies Analyzed
-1. Reliance Industries
-2. Tata Consultancy Services (TCS)
-3. Infosys
-4. HDFC Bank
-5. ICICI Bank
-6. Axis Bank
-7. State Bank of India (SBI)
-8. Bajaj Finance
-9. ITC
-10. Bharti Airtel
+## 📊 Key Analysis
+1. Historical Stock Price Analysis
+2. Daily Returns Analysis
+3. 20-Day and 50-Day Moving Averages
+4. Stock Volatility Analysis
+5. Trading Volume Comparison
+6. Returns vs Volatility Analysis
 
-## Project Workflow
-1. Imported historical stock market datasets.
-2. Cleaned missing values and converted date columns.
-3. Calculated daily stock returns.
-4. Calculated 20-day and 50-day moving averages.
-5. Analyzed 20-day and 50-day rolling volatility.
-6. Compared average daily returns across companies.
-7. Compared trading volumes and stock performance.
-8. Created and saved visualizations for analysis.
+## 📉 Project Visualizations
 
-## Key Analysis
-- Historical Closing Price Analysis
-- Daily Returns Analysis
-- 20-Day and 50-Day Moving Average Analysis
-- 20-Day and 50-Day Volatility Analysis
-- Average Daily Returns Comparison
-- Trading Volume Comparison
-- Company Performance Comparison
+### 1. Trading Volume Comparison
+![Trading Volume](charts/trading_volume_bar_chart.png)
 
-## Project Files
-- `stock_analysis.ipynb` – Complete Python analysis notebook
-- `stock_market_summary.csv` – Final company comparison summary
-- `*_cleaned.csv` – Cleaned company datasets
-- `dataset/` – Original datasets
-- `charts/` – Saved analysis and comparison charts
+### 2. Stock Price Trends – Line Chart
+![Stock Price Line Chart](charts/stock_price_line_chart.png)
 
-## Libraries Installation
+### 3. Stock Price Trends – Area Chart
+![Stock Price Area Chart](charts/stock_price_area_chart.png)
 
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
+### 4. Average Returns vs Volatility
+![Returns vs Volatility](charts/returns_vs_volatility_scatter.png)
+
+## 📁 Project Structure
+```text
+Stock-Market-Performance-Analytics/
+│
+├── charts/
+├── dataset/
+├── stock_analysis.ipynb
+├── stock_market_summary.csv
+├── README.md
 ```
 
-## Dataset Source
-Historical Indian stock market dataset:
-https://zenodo.org/records/7819848
+## 🚀 How to Run the Project
 
-## Disclaimer
-This project is for educational and analytical purposes only. It does not provide financial or investment advice.
+1. Clone this repository:
+   `git clone https://github.com/asma-afzal-sayyed/Stock-Market-Performance-Analytics.git`
 
-## Author
+2. Install required libraries:
+   `pip install pandas numpy matplotlib seaborn jupyter`
+
+3. Open Jupyter Notebook:
+   `jupyter notebook`
+
+4. Open `stock_analysis.ipynb` and run the cells.
+
+## 📂 Dataset Source
+Historical stock market dataset: [Zenodo Dataset](https://zenodo.org/records/7819848)
+
+## 👩‍💻 Author
 **Asma Afzal Sayyed**
 
-GitHub: https://github.com/asma-afzal-sayyed
+[GitHub](https://github.com/asma-afzal-sayyed) | [LinkedIn](https://www.linkedin.com/in/asma-sayyed-9501b8365) | [Portfolio](https://asma-afzal-sayyed.github.io/Professional-Portfolio/)
 
-Portfolio: https://asma-afzal-sayyed.github.io/Professional-Portfolio/
+---
+*This project is for educational and analytical purposes only. It does not provide financial or investment advice.*
